@@ -1,4 +1,9 @@
 <html>
   <body>
+    <form action="http://127.0.0.1:8000/blog/mypage/articles" method="post">
+      <input type="hidden" name="title" value="CSRFテスト">
+      <input type="hidden" name="body" value="これはCSRFのテストです">
+      <input type="submit" value="このボタンを押す">
+    </form>
   </body>
 </html>
